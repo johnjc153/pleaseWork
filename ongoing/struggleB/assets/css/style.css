@@ -1,10 +1,28 @@
+/* root */
+:root {
+  --color1: #9dd4ee;
+  --color2: #b59342;
+  --color3: #444444;
+  --color4: #191919;
+  --white: #fff;
+  --black: #000;
+  --box-shadow: rgba(0, 0, 0, 0.15);
+  --light-hover: rgba(255, 255, 255, 0.6);
+  --dark-hover: rgba(44, 44, 44, 0.6);
+  --color-hover1: rgba(176, 213, 230, 0.6);
+  --color-hover2: rgba(51, 176, 207, 0.9);
+  --port-hover: rgba(103, 176, 209, 0.95);
+
+  --font-family1: "SomeFont", sans-serif;
+  --font-family2: "SomeFont", sans-serif;
+}
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
+  background: var(--color3);
   color: #fff;
 }
 
@@ -83,17 +101,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-  border: 2px solid #cda45e;
+  border: 2px solid var(--color2);
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #cda45e;
+  color: var(--color2);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #cda45e;
+  background: var(--color2);
   color: #1a1814;
 }
 
@@ -120,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(12, 11, 9, 0.6);
+  background: var(--color-hover2);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
@@ -158,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .book-a-table-btn {
   margin: 0 0 0 15px;
-  border: 2px solid #cda45e;
+  border: 2px solid var(--color2);
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -170,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #cda45e;
+  background: var(--color2);
   color: #fff;
 }
 
@@ -254,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #cda45e;
+  color: var(--color2);
 }
 
 .navbar .dropdown:hover > ul {
@@ -345,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #cda45e;
+  color: var(--color2);
 }
 
 .navbar-mobile .getstarted {
@@ -377,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #cda45e;
+  color: var(--color2);
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -390,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   overflow: hidden;
   position: relative;
   padding: 0;
@@ -424,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-duration: .5s;
   animation-duration: .5s;
-  border-top: 5px solid #f03c02;
+  border-top: 5px solid var(--color1);
 }
 
 #hero .carousel-content h2 {
@@ -448,11 +466,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f03c02;
+  border: 2px solid var(--color1);
 }
 
 #hero .btn-get-started:hover {
-  background: #f03c02;
+  background: var(--color1);
   color: #fff;
   text-decoration: none;
 }

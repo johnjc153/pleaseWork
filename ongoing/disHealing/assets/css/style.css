@@ -622,6 +622,12 @@ section {
   font-weight: 400;
   font-size: 13px;
 }
+
+/* .appointment .form {
+  margin: 10px;
+  width: 20px;
+} */
+
 .appointment .form .error-message {
   display: none;
   color: #fff;

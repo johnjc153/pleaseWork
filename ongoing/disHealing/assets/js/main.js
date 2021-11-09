@@ -208,4 +208,32 @@
     }
   });
 
+
+
+
+  // document.getElementById("form").submit(function (e) {
+  //   e.preventDefault();
+  //   let request = new XMLHttpRequest();
+  //   request.open("POST", "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfpNKIjQVydqaK_p5Ut1IPYKEY9E-I3Yxl3q2qJsl9w4f0zMA/formResponse", true);
+  //   request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+  //   request.onload = function () {
+  //     if (this.status >= 200 && this.status < 400) {
+  //       let data = this.response;
+  //       console.log('Submission successful');
+  //     }
+  //   }
+  //   request.onerror = function (xhr, status, error) {
+  //     console.log('Submission failed: ' + error);
+  //   };
+  //   request.send(this.serialize);
+  // });
+
+
+  // const formSubmit = document.querySelector('#submit');
+
+  // formSubmit.addEventListener('click', function (e) {
+  //   console.log("prevented")
+  //   e.preventDefault();
+  // });
+
 })()

@@ -685,15 +685,18 @@ section {
 .appointment .form textarea {
   padding: 10px 12px;
 }
-.appointment .form button[type="submit"] {
+.appointment .form button[type="submit"],
+.appointment .form button[type="reset"] {
   background: #1977cc;
   border: 0;
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+  margin-left: 10px;
 }
-.appointment .form button[type="submit"]:hover {
+.appointment .form button[type="submit"]:hover,
+.appointment .form button[type="reset"]:hover {
   background: #1c84e3;
 }
 

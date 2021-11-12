@@ -238,7 +238,10 @@
           </div> -->
 
 
-            <div id="submit" class="text-center mt-4"><button type="submit" id="submitbtn">Submit</button></div>
+            <div id="submit" class="text-center mt-4"><button type="submit" class="py-2 my-2">Submit</button><button
+                type="reset" class="my-2 py-2">Reset</button></div>
+
+
         </form>
         <!-- for the picture entry entry.1129810924 -->
       </div>
@@ -248,7 +251,6 @@
 
       const scriptURL = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSfpNKIjQVydqaK_p5Ut1IPYKEY9E-I3Yxl3q2qJsl9w4f0zMA/formResponse'
       const form = document.forms['google-form']
-
 
       form.addEventListener('submit', e => {
         e.preventDefault()

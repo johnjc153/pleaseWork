@@ -208,14 +208,6 @@
     }
   });
 
-
-  const btnClear = document.getElementById('submitbtn');
-  const inputs = document.querySelectorAll('input');
-
-  btnClear.addEventListener('click', () => {
-    inputs.forEach(input => input.vlaue = '');
-  });
-
   // document.getElementById("form").submit(function (e) {
   //   e.preventDefault();
   //   let request = new XMLHttpRequest();

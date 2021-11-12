@@ -199,9 +199,7 @@
             in iste officiis commodi quidem hic quas.</p>
         </div>
 
-        <form
-          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfpNKIjQVydqaK_p5Ut1IPYKEY9E-I3Yxl3q2qJsl9w4f0zMA/formResponse"
-          method="POST" role="form" class="form" target="_blank">
+        <form method="POST" role="form" class="form" name="google-form">
           <div class="row">
 
             <div class="col-md-4 form-element">
@@ -234,17 +232,31 @@
               <div class="validate"></div>
             </div>
 
-            <div class="col-md-4 form-element">
+            <!-- <div class="col-md-4 form-element">
               <input type="file" id="real-file" name="entry.1129810924" class="form-control">
             </div>
-          </div>
+          </div> -->
 
 
-          <div id="submit" class="text-center mt-4"><button type="submit">Submit</button></div>
+            <div id="submit" class="text-center mt-4"><button type="submit">Submit</button></div>
         </form>
         <!-- for the picture entry entry.1129810924 -->
       </div>
     </section><!-- End Appointment Section -->
+
+    <script>
+
+      const scriptURL = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSfpNKIjQVydqaK_p5Ut1IPYKEY9E-I3Yxl3q2qJsl9w4f0zMA/formResponse'
+      const form = document.forms['google-form']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">

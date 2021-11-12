@@ -45,7 +45,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#doctors">Intake Forms</a></li>
+          <li><a class="nav-link scrollto" href="#form">Intake Forms</a></li>
           <li><a class="nav-link scrollto" href="#about">About Us</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
@@ -238,7 +238,7 @@
           </div> -->
 
 
-            <div id="submit" class="text-center mt-4"><button type="submit">Submit</button></div>
+            <div id="submit" class="text-center mt-4"><button type="submit" id="submitbtn">Submit</button></div>
         </form>
         <!-- for the picture entry entry.1129810924 -->
       </div>
@@ -249,11 +249,13 @@
       const scriptURL = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSfpNKIjQVydqaK_p5Ut1IPYKEY9E-I3Yxl3q2qJsl9w4f0zMA/formResponse'
       const form = document.forms['google-form']
 
+
       form.addEventListener('submit', e => {
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
           .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
           .catch(error => console.error('Error!', error.message))
+        alert('Info has been sent');
       })
     </script>
 

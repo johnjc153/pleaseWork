@@ -1,0 +1,160 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+    color: #1977cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3291e6;
+    text-decoration: none;
+}
+
+.appointment form {
+    width: 100%;
+}
+.appointment .form .form-element {
+    padding-bottom: 8px;
+}
+.appointment .form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/* .appointment .form {
+  margin: 10px;
+  width: 20px;
+} */
+
+.appointment .form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+.appointment .form .error-message br + br {
+    margin-top: 25px;
+}
+.appointment .form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+.appointment .form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+.appointment .form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+.appointment .form input,
+.appointment .form textarea,
+.appointment .form select {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 10px !important;
+}
+.appointment .form input:focus,
+.appointment .form textarea:focus,
+.appointment .form select:focus {
+    border-color: #1977cc;
+}
+.appointment .form input,
+.appointment .form select {
+    height: 44px;
+}
+.appointment .form textarea {
+    padding: 10px 12px;
+}
+.appointment .form button[type="submit"],
+.appointment .form button[type="reset"] {
+    background: #1977cc;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.appointment .form button[type="submit"]:hover,
+.appointment .form button[type="reset"]:hover {
+    background: #1c84e3;
+}
+
+.radio {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background-color: #f1f7fd;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+}
+.section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #1977cc;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.section-title p {
+    margin-bottom: 0;
+}

@@ -201,13 +201,13 @@
    * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+    selector: '.gallery-lightbox'
   });
 
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.gallery-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {

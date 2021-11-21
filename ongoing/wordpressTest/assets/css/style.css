@@ -1,3 +1,19 @@
+:root {
+    /* colors */
+    --color1: #8ec740;
+    --color2: #638a2c;
+    --color3: #4d4d4d;
+    --color4: #444444;
+    --white: #fff;
+    --light: #e4e4e4;
+    --black: #000;
+    --grey: #868383;
+
+    /* font typography */
+    --body-font: "Fira Sans", sans-serif;
+    --h-fonts: "Raleway", sans-serif;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;

@@ -62,7 +62,7 @@
                     </div>
 
 
-                    <div class="col-md-4 form-element radio">
+                    <!-- <div class="col-md-4 form-element radio">
                         <label for="1">
                             <span>1</span>
                             <input type="radio" name="entry.365307149" id="1" value="1">
@@ -78,7 +78,7 @@
                             <input type="radio" name="entry.365307149" id="3" value="3">
                             <div class="validate"></div>
                         </label>
-                    </div>
+                    </div> -->
 
                     <div class="col-md-4 form-element ">
                         <input type="text" name="entry.2053721191" class="form-control" id="name"
@@ -98,6 +98,18 @@
                   </div> -->
 
 
+                    <div>
+                        <input type="checkbox" id="Scales" name="entry.1826938221" class="form-control" value="Scales">
+                        <label for="scales">Scales</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="Horns" name="entry.1826938221" class="form-control" value="Horns">
+                        <label for="horns">Horns</label>
+                    </div>
+
+
+
                     <div id="submit" class="text-center mt-4"><button type="submit"
                             class="py-2 my-2">Submit</button><button type="reset" class="my-2 py-2">Reset</button></div>
 
@@ -109,7 +121,7 @@
 
     <script>
 
-        const scriptURL = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSfpNKIjQVydqaK_p5Ut1IPYKEY9E-I3Yxl3q2qJsl9w4f0zMA/formResponse'
+        const scriptURL = 'https://docs.google.com/forms/d/e/1FAIpQLSfpNKIjQVydqaK_p5Ut1IPYKEY9E-I3Yxl3q2qJsl9w4f0zMA/formResponse'
         const form = document.forms['google-form']
 
         form.addEventListener('submit', e => {

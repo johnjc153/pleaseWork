@@ -501,6 +501,10 @@ h6 {
   padding: 10px 15px;
 }
 
+#doctortext {
+  height: 20px;
+}
+
 .contact #intake textarea {
   padding: 12px 15px;
 }

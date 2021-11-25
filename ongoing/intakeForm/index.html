@@ -1733,13 +1733,787 @@
                                                     maxlength="50" autocomplete="off">
                                             </div>
 
+                                            <p class="mt-2"><b>(Please bring your insurance card so a copy can be
+                                                    made)</b></p>
+
+
+                                            <div class="row">
+                                                <div class="col-md-3 mt-4">
+                                                    <p>If You Have Secondary Insurance Fill Out the Following</p>
+                                                    <label for="Yes8" class="radio">
+                                                        <input type="radio" name="entry.839868469" id="Yes8" value="Yes"
+                                                            required>
+                                                        <span class="px-2">Yes</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                    <label for="No8" class="radio">
+                                                        <input type="radio" name="entry.839868469" id="No8" value="No"
+                                                            required>
+                                                        <span class="px-2">No</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+                                                </div>
+
+                                                <div class="col-md-3 mt-4">
+                                                    <p>Insured Name</p>
+                                                    <input type="text" name="entry.1105365653" class="form-control"
+                                                        id="I2InsuredName" placeholder="Name" data-rule="minlen:4"
+                                                        data-msg="Please enter at least 4 chars" maxlength="50"
+                                                        autocomplete="off">
+                                                </div>
+
+                                                <div class="col-md-6 mt-4">
+                                                    <p>Relationship to Insured</p>
+
+                                                    <label for="I2Self" class="radio">
+                                                        <input type="radio" name="entry.402416320" id="I2Self"
+                                                            value="Self" required>
+                                                        <span class="px-2">Self</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                    <label for="I2Spouse" class="radio">
+                                                        <input type="radio" name="entry.402416320" id="I2Spouse"
+                                                            value="Spouse" required>
+                                                        <span class="px-2">Spouse</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                    <label for="I2Child" class="radio">
+                                                        <input type="radio" name="entry.402416320" id="I2Child"
+                                                            value="Child" required>
+                                                        <span class="px-2">Child</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                    <label for="I2Other" class="radio">
+                                                        <input type="radio" name="entry.402416320" id="I2Other"
+                                                            value="__other_option__" required>
+                                                        <span class="px-2">Other</span>
+                                                        <textarea name="entry.402416320.other_option_response"
+                                                            id="I2other" cols="25" id="doctortext" rows="1"
+                                                            style="height: 10px;"></textarea>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+                                                </div>
+
+
+                                            </div>
+
+                                            <div class="row ">
+
+                                                <div class="col-md-4 mt-3 form-group">
+                                                    <p>Insured's Date Of Birth</p>
+                                                    <input type="date" id="I2DOB" name="entry.40928522" min="1900-11-24"
+                                                        autocomplete="off" required>
+                                                </div>
+                                                <div class="col-md-4 mt-3 form-group">
+                                                    <p>Social Security</p>
+                                                    <input type="text" name="entry.437591523" class="form-control"
+                                                        id="SS" placeholder="Social Security" data-rule="minlen:4"
+                                                        data-msg="Please enter at least 4 chars" maxlength="50"
+                                                        autocomplete="off">
+                                                </div>
+
+                                                <div class="col-md-4 mt-3 form-group">
+                                                    <p>Home Phone</p>
+                                                    <input type="text" name="entry.516595889" class="form-control"
+                                                        id="Home Phone" placeholder="Home Phone" data-rule="minlen:4"
+                                                        data-msg="Please enter at least 4 chars" maxlength="50"
+                                                        autocomplete="off">
+                                                </div>
+
+                                            </div>
+
+                                            <div class="row mt-4">
+                                                <div class="col-md-6  form-group">
+                                                    <p>Address</p>
+                                                    <input type="text" name="entry.751008043" class="form-control"
+                                                        id="I2Address" placeholder="Address" data-rule="minlen:4"
+                                                        data-msg="Please enter at least 4 chars" maxlength="100"
+                                                        autocomplete="off" required>
+                                                </div>
+                                                <div class="col-md-3 form-group mt-3 mt-md-0">
+                                                    <p>Apt</p>
+                                                    <input type="text" name="entry.712447004" class="form-control"
+                                                        id="I2Apt" placeholder="Apt" data-rule="minlen:4"
+                                                        data-msg="Please enter at least 4 chars" maxlength="50"
+                                                        autocomplete="off" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mt-4">
+                                                <div class="col-md-4 form-group">
+                                                    <p>City</p>
+                                                    <input type="text" name="entry.1207299801" class="form-control"
+                                                        id="I2City" placeholder="City" data-rule="minlen:4"
+                                                        data-msg="Please enter at least 4 chars" maxlength="100"
+                                                        autocomplete="off" required>
+                                                </div>
+
+                                                <div class="col-md-4 form-group">
+                                                    <p>State</p>
+                                                    <input type="text" name="entry.1479903966" class="form-control"
+                                                        id="I2State" placeholder="State" data-rule="minlen:4"
+                                                        data-msg="Please enter at least 4 chars" maxlength="100"
+                                                        autocomplete="off" required>
+                                                </div>
+
+                                                <div class="col-md-4 form-group">
+                                                    <p>Zip</p>
+                                                    <input type="text" name="entry.2102492532" class="form-control"
+                                                        id="I2Zip" placeholder="Zip" data-rule="minlen:4"
+                                                        data-msg="Please enter at least 4 chars" maxlength="100"
+                                                        autocomplete="off" required>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-4">
+                                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                                    <p>Employer</p>
+                                                    <input type="text" name="entry.986439026" class="form-control"
+                                                        id="I2Employer" placeholder="Employer" data-rule="minlen:4"
+                                                        data-msg="Please enter at least 4 chars" maxlength="50"
+                                                        autocomplete="off">
+                                                </div>
+
+                                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                                    <p>Insurance Plan Name</p>
+                                                    <input type="text" name="entry.1752722105" class="form-control"
+                                                        id="I2InsurancePlan" placeholder="Insurance Plan"
+                                                        data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                                        maxlength="50" autocomplete="off">
+                                                </div>
+                                            </div>
+
+                                            <div class="section-header mt-4">
+                                                <span class="section-divider"></span>
+                                                <h4 class="section-description">D. Family Information
+                                                </h4>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <p>Relationship Status</p>
+
+                                                    <label for="SingleRS" class="radio">
+                                                        <input type="radio" name="entry.1392941504" id="SingleRS"
+                                                            value="Single" required>
+                                                        <span class="px-2">SIngle</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                    <label for="MarriedRS" class="radio">
+                                                        <input type="radio" name="entry.1392941504" id="MarriedRS"
+                                                            value="Married" required>
+                                                        <span class="px-2">Married</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                    <label for="PartneredRS" class="radio">
+                                                        <input type="radio" name="entry.1392941504" id="PartneredRS"
+                                                            value="Partnered" required>
+                                                        <span class="px-2">Partnered</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                    <label for="DiviorcedRS" class="radio">
+                                                        <input type="radio" name="entry.1392941504" id="DiviorcedRS"
+                                                            value="Diviorced" required>
+                                                        <span class="px-2">Divorced</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                    <label for="WidowRS" class="radio">
+                                                        <input type="radio" name="entry.1392941504" id="WidowRS"
+                                                            value="Widow/Widower" required>
+                                                        <span class="px-2">Widow/Widower</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <p>Are Your Parents</p>
+
+                                                    <label for="DivorcedPS" class="radio">
+                                                        <input type="radio" name="entry.44969194" id="DivorcedPS"
+                                                            value="Divorced" required>
+                                                        <span class="px-2">Divorced</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                    <label for="NeverMarriedPS" class="radio">
+                                                        <input type="radio" name="entry.44969194" id="NeverMarriedPS"
+                                                            value="Never Married" required>
+                                                        <span class="px-2">Never Married</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                    <label for="StillMarriedPS" class="radio">
+                                                        <input type="radio" name="entry.44969194" id="StillMarriedPS"
+                                                            value="Still Married" required>
+                                                        <span class="px-2">Still Married</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+
+                                                    <label for="WidowedPS" class="radio">
+                                                        <input type="radio" name="entry.44969194" id="WidowedPS"
+                                                            value="Widowed" required>
+                                                        <span class="px-2">Widowed</span>
+                                                        <!-- <div class="validate"></div> -->
+                                                    </label>
+                                                </div>
+
+                                                <div class="row mt-4">
+                                                    <div class="col-md-6">
+                                                        <p>Where are you in the birth order of your family?</p>
+                                                        <input type="text" name="entry.870887143" class="form-control"
+                                                            id="BirthOrder" placeholder="Birth Order"
+                                                            data-rule="minlen:4"
+                                                            data-msg="Please enter at least 4 chars" maxlength="50"
+                                                            autocomplete="off">
+                                                    </div>
+
+                                                    <div class="row mt-4">
+                                                        <div class="col-md-12">
+                                                            <p>Family History Of:</p>
+
+
+                                                            <input type="checkbox" id="Depression"
+                                                                name="entry.1184943011" value="Depression">
+                                                            <label for="Depression" class="mx-2">Depression</label>
+
+                                                            <input type="checkbox" id="Suicide Attempts"
+                                                                name="entry.1184943011" value="Suicide Attempts">
+                                                            <label for="Suicide Attempts" class="mx-2">Suicide
+                                                                Attempts</label>
+
+                                                            <input type="checkbox" id="Anxiety" name="entry.1184943011"
+                                                                value="Anxiety">
+                                                            <label for="" class="mx-2">Anxiety</label>
+
+                                                            <input type="checkbox" id="Eating Disorders"
+                                                                name="entry.1184943011" value="Eating Disorders">
+                                                            <label for="Eating Disorders" class="mx-2">Eating
+                                                                Disorders</label>
+
+                                                            <input type="checkbox" id="Mental Illness"
+                                                                name="entry.1184943011" value="Mental Illness">
+                                                            <label for="Mental Illness" class="mx-2">Mental
+                                                                Illness</label>
+
+                                                            <input type="checkbox" id="Violence" name="entry.1184943011"
+                                                                value="Violence">
+                                                            <label for="" class="mx-2">Violence</label>
+
+                                                            <input type="checkbox" id="Sexual Abuse"
+                                                                name="entry.1184943011" value="Sexual Abuse">
+                                                            <label for="" class="mx-2">Sexual Abuse</label>
+
+                                                            <input type="checkbox" id="Emotional Abuse"
+                                                                name="entry.1184943011" value="Emotional Abuse">
+                                                            <label for="Emotional Abuse" class="mx-2">Emotional
+                                                                Abuse</label>
+
+                                                            <input type="checkbox" id="Alcoholism/Drug Addiction"
+                                                                name="entry.1184943011"
+                                                                value="Alcoholism/Drug Addiction">
+                                                            <label for="Alcoholism/Drug Addiction"
+                                                                class="mx-2">Alcoholism/Drug Addiction</label>
+
+                                                            <input type="checkbox" id="Chronic Illness"
+                                                                name="entry.1184943011" value="Chronic Illness">
+                                                            <label for="Chronic Illness" class="mx-2">Chronic
+                                                                Illness</label>
+
+                                                            <input type="checkbox" id="other" name="entry.1184943011"
+                                                                value="__other_option__"><label for="Other"
+                                                                class="mx-2">Other</label>
+                                                            <textarea name="entry.1184943011.other_option_response"
+                                                                id="answer" cols="30" rows="1"
+                                                                style="height: 10px;"></textarea>
+
+
+
+                                                        </div>
+
+                                                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                                                            <p class="mt-4">Please Specify Family Chronic Illness</p>
+                                                            <input type="text" name="entry.299808441"
+                                                                class="form-control" id="FamilyChronicIllness"
+                                                                placeholder="Chronic Illness" data-rule="minlen:4"
+                                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                                autocomplete="off">
+                                                        </div>
+
+
+                                                    </div>
+
+
+                                                    <div class="row mt-4">
+                                                        <div class="col-md-12">
+                                                            <p>Personal History:</p>
+
+
+                                                            <input type="checkbox" id="Depression1"
+                                                                name="entry.1980379286" value="Depression">
+                                                            <label for="Depression1" class="mx-2">Depression</label>
+
+                                                            <input type="checkbox" id="Suicide Attempts1"
+                                                                name="entry.1980379286" value="Suicide Attempts">
+                                                            <label for="Suicide Attempts1" class="mx-2">Suicide
+                                                                Attempts</label>
+
+                                                            <input type="checkbox" id="Anxiety1" name="entry.1980379286"
+                                                                value="Anxiety">
+                                                            <label for="Anxiety1" class="mx-2">Anxiety</label>
+
+                                                            <input type="checkbox" id="Eating Disorders1"
+                                                                name="entry.1980379286" value="Eating Disorders">
+                                                            <label for="Eating Disorders1" class="mx-2">Eating
+                                                                Disorders</label>
+
+                                                            <input type="checkbox" id="Mental Illness1"
+                                                                name="entry.1980379286" value="Mental Illness">
+                                                            <label for="Mental Illness1" class="mx-2">Mental
+                                                                Illness</label>
+
+                                                            <input type="checkbox" id="Violence1"
+                                                                name="entry.1980379286" value="Violence">
+                                                            <label for="Violence1" class="mx-2">Violence</label>
+
+                                                            <input type="checkbox" id="Sexual Abuse1"
+                                                                name="entry.1980379286" value="Sexual Abuse">
+                                                            <label for="Sexual Abuse1" class="mx-2">Sexual Abuse</label>
+
+                                                            <input type="checkbox" id="Emotional Abuse1"
+                                                                name="entry.1980379286" value="Emotional Abuse">
+                                                            <label for="Emotional Abuse1" class="mx-2">Emotional
+                                                                Abuse</label>
+
+                                                            <input type="checkbox" id="Alcoholism/Drug Addiction1"
+                                                                name="entry.1980379286"
+                                                                value="Alcoholism/Drug Addiction">
+                                                            <label for="Alcoholism/Drug Addiction1"
+                                                                class="mx-2">Alcoholism/Drug Addiction</label>
+
+                                                            <input type="checkbox" id="Chronic Illness1"
+                                                                name="entry.1980379286" value="Chronic Illness">
+                                                            <label for="Chronic Illness1" class="mx-2">Chronic
+                                                                Illness</label>
+
+                                                            <input type="checkbox" id="other1" name="entry.1980379286"
+                                                                value="__other_option__"><label for="Other1"
+                                                                class="mx-2">Other</label>
+                                                            <textarea name="entry.1980379286.other_option_response"
+                                                                id="answer" cols="30" rows="1"
+                                                                style="height: 10px;"></textarea>
+
+
+
+                                                        </div>
+
+                                                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                                                            <p class="mt-4">Please Specify Personal Chronic Illness</p>
+                                                            <input type="text" name="entry.779793430"
+                                                                class="form-control" id="PersonalChronicIllness"
+                                                                placeholder="Chronic Illness" data-rule="minlen:4"
+                                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                                autocomplete="off">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-
-
-
                                     </div>
 
+                                    <!-- father -->
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Father's Name</p>
+                                            <input type="text" name="entry.1413353759" class="form-control"
+                                                id="FatherName" placeholder="Name" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Father's Current Age or Age Of Death</p>
+                                            <input type="text" name="entry.1705896280" class="form-control"
+                                                id="FCurrentAge" placeholder="Current Age Or Age Of Death"
+                                                data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                                maxlength="50" autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Father's Illnesss</p>
+                                            <input type="text" name="entry.823450320" class="form-control" id="FIllness"
+                                                placeholder="Illness" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Father's Education</p>
+                                            <input type="text" name="entry.796463601" class="form-control"
+                                                id="FEducation" placeholder="Education" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Father's Occupation</p>
+                                            <input type="text" name="entry.1835633996" class="form-control"
+                                                id="FOccupation" placeholder="Occupation" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <!-- mother -->
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Mother's Name</p>
+                                            <input type="text" name="entry.1712062443" class="form-control"
+                                                id="MotherName" placeholder="Name" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Mother's Current Age or Age Of Death</p>
+                                            <input type="text" name="entry.930591562" class="form-control"
+                                                id="MCurrentAge" placeholder="Current Age Or Age Of Death"
+                                                data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                                maxlength="50" autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Mother's Illnesss</p>
+                                            <input type="text" name="entry.741012496" class="form-control" id="MIllness"
+                                                placeholder="Illness" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Mother's Education</p>
+                                            <input type="text" name="entry.1212187304" class="form-control"
+                                                id="FEducation" placeholder="Education" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Mother's Occupation</p>
+                                            <input type="text" name="entry.1398127376" class="form-control"
+                                                id="FOccupation" placeholder="Occupation" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <!-- sibling1 -->
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Sibling 1 Name</p>
+                                            <input type="text" name="entry.259156403" class="form-control"
+                                                id="Sibling 1 Name" placeholder="Name" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Sibling 1 Current Age or Age Of Death</p>
+                                            <input type="text" name="entry.1965618641" class="form-control"
+                                                id="Sib1CurrentAge" placeholder="Current Age Or Age Of Death"
+                                                data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                                maxlength="50" autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Sibling 1 Illnesss</p>
+                                            <input type="text" name="entry.1617700364" class="form-control"
+                                                id="Sib1Illness" placeholder="Illness" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Sibling 1 Education</p>
+                                            <input type="text" name="entry.1752292850" class="form-control"
+                                                id="Sib1Education" placeholder="Education" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Sibling 1 Occupation</p>
+                                            <input type="text" name="entry.899582790" class="form-control"
+                                                id="Sib1Occupation" placeholder="Occupation" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- sibling2 -->
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Sibling 2 Name</p>
+                                            <input type="text" name="entry.1378966196" class="form-control"
+                                                id="Sibling 2 Name" placeholder="Name" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Sibling 2 Current Age or Age Of Death</p>
+                                            <input type="text" name="entry.1227815602" class="form-control"
+                                                id="Sib2CurrentAge" placeholder="Current Age Or Age Of Death"
+                                                data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                                maxlength="50" autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Sibling 2 Illnesss</p>
+                                            <input type="text" name="entry.309284126" class="form-control"
+                                                id="Sib2Illness" placeholder="Illness" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Sibling 2 Education</p>
+                                            <input type="text" name="entry.607940548" class="form-control"
+                                                id="Sib2Education" placeholder="Education" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Sibling 2 Occupation</p>
+                                            <input type="text" name="entry.1743241620" class="form-control"
+                                                id="Sib2Occupation" placeholder="Occupation" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Son1 -->
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Son 1 Name</p>
+                                            <input type="text" name="entry.603675870" class="form-control"
+                                                id="Son 1 Name" placeholder="Name" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Son 1 Current Age or Age Of Death</p>
+                                            <input type="text" name="entry.2007189485" class="form-control"
+                                                id="Son1CurrentAge" placeholder="Current Age Or Age Of Death"
+                                                data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                                maxlength="50" autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Son 1 Illnesss</p>
+                                            <input type="text" name="entry.1481389777" class="form-control"
+                                                id="Son1Illness" placeholder="Illness" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Son 1 Education</p>
+                                            <input type="text" name="entry.1764901588" class="form-control"
+                                                id="Son1Education" placeholder="Education" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Son 1 Occupation</p>
+                                            <input type="text" name="entry.1054808730" class="form-control"
+                                                id="Son1Occupation" placeholder="Occupation" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <!-- Son2 -->
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Son 2 Name</p>
+                                            <input type="text" name="entry.66058809" class="form-control"
+                                                id="Son 2 Name" placeholder="Name" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Son 2 Current Age or Age Of Death</p>
+                                            <input type="text" name="entry.2008668303" class="form-control"
+                                                id="Son2CurrentAge" placeholder="Current Age Or Age Of Death"
+                                                data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                                maxlength="50" autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Son 2 Illnesss</p>
+                                            <input type="text" name="entry.1778803692" class="form-control"
+                                                id="Son2Illness" placeholder="Illness" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Son 2 Education</p>
+                                            <input type="text" name="entry.1530685062" class="form-control"
+                                                id="Son2Education" placeholder="Education" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Son 2 Occupation</p>
+                                            <input type="text" name="entry.521525245" class="form-control"
+                                                id="Son2Occupation" placeholder="Occupation" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <!-- Daughter1 -->
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Daughter 1 Name</p>
+                                            <input type="text" name="entry.1112036688" class="form-control"
+                                                id="Daughter 1 Name" placeholder="Name" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Daughter 1 Current Age or Age Of Death</p>
+                                            <input type="text" name="entry.897013358" class="form-control"
+                                                id="Daughter1CurrentAge" placeholder="Current Age Or Age Of Death"
+                                                data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                                maxlength="50" autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Daughter 1 Illnesss</p>
+                                            <input type="text" name="entry.668432503" class="form-control"
+                                                id="Daughter1Illness" placeholder="Illness" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Daughter 1 Education</p>
+                                            <input type="text" name="entry.1807828329" class="form-control"
+                                                id="Daughter1Education" placeholder="Education" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Daughter 1 Occupation</p>
+                                            <input type="text" name="entry.1486065749" class="form-control"
+                                                id="Daughter1Occupation" placeholder="Occupation" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <!-- Daughter2 -->
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Daughter 2 Name</p>
+                                            <input type="text" name="entry.909885456" class="form-control"
+                                                id="Daughter 2 Name" placeholder="Name" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Daughter 2 Current Age or Age Of Death</p>
+                                            <input type="text" name="entry.798906862" class="form-control"
+                                                id="Daughter2CurrentAge" placeholder="Current Age Or Age Of Death"
+                                                data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                                maxlength="50" autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Daughter 2 Illnesss</p>
+                                            <input type="text" name="entry.606560275" class="form-control"
+                                                id="Daughter2Illness" placeholder="Illness" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Daughter 2 Education</p>
+                                            <input type="text" name="entry.1911547489" class="form-control"
+                                                id="Daughter2Education" placeholder="Education" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Daughter 2 Occupation</p>
+                                            <input type="text" name="entry.769608095" class="form-control"
+                                                id="Daughter2Occupation" placeholder="Occupation" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <!-- spouse -->
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Spouse Name</p>
+                                            <input type="text" name="entry.88159929" class="form-control"
+                                                id="SpouseName" placeholder="Name" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Spouse Current Age or Age Of Death</p>
+                                            <input type="text" name="entry.1408607261" class="form-control"
+                                                id="SpouseCurrentAge" placeholder="Current Age Or Age Of Death"
+                                                data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                                maxlength="50" autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Spouse Illnesss</p>
+                                            <input type="text" name="entry.556742408" class="form-control"
+                                                id="SpouseIllness" placeholder="Illness" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Spouse Education</p>
+                                            <input type="text" name="entry.501809858" class="form-control"
+                                                id="SpouseEducation" placeholder="Education" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Spouse Occupation</p>
+                                            <input type="text" name="entry.934906169" class="form-control"
+                                                id="SpouseOccupation" placeholder="Occupation" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+
+
+
                                 </div>
+                                <!-- abovethisone -->
+
 
                             </div>
 

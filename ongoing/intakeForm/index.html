@@ -2549,8 +2549,431 @@
                                     </div>
 
                                     <div class="row mt-4">
-
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Current Medications</p>
+                                            <input type="text" name="entry.699200592" class="form-control"
+                                                id="Medications" placeholder="Medications" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="250"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Dosages</p>
+                                            <input type="text" name="entry.2006128031" class="form-control" id="Dosages"
+                                                placeholder="Dosages" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="250"
+                                                autocomplete="off">
+                                        </div>
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p>Frequency</p>
+                                            <input type="text" name="entry.2007990637" class="form-control"
+                                                id="Frequency" placeholder="Frequency" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="250"
+                                                autocomplete="off">
+                                        </div>
                                     </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p class="mt-4">Effectiveness</p>
+                                            <input type="text" name="entry.904376788" class="form-control"
+                                                id="Effectiveness" placeholder="Effectiveness" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="250"
+                                                autocomplete="off">
+                                        </div>
+
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p class="mt-4">Prescribing Physician</p>
+                                            <input type="text" name="entry.476484798" class="form-control"
+                                                id="PrescribingPhysician" placeholder="Prescribing Physician"
+                                                data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                                maxlength="250" autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p class="mt-4">Have You Experienced Any Recent Changes?</p>
+                                            <div>
+                                                <input type="checkbox" id="Sleep" name="entry.1336679948" value="Sleep">
+                                                <label for="Sleep" class="mx-2">Sleep</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="Nightmare" name="entry.1336679948"
+                                                    value="Nightmare">
+                                                <label for="Nightmare" class="mx-2">Nightmare</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="AmountofExcerise" name="entry.1336679948"
+                                                    value="Amount of Excerise">
+                                                <label for="AmountofExcerise" class="mx-2">Amount of Excerise</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="SexualDesire" name="entry.1336679948"
+                                                    value="Sexual Desire">
+                                                <label for="SexualDesire" class="mx-2">Sexual Desire</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="Eating/Appetite" name="entry.1336679948"
+                                                    value="Eating/Appetite">
+                                                <label for="Eating/Appetite" class="mx-2">Eating/Appetite</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="Weight" name="entry.1336679948"
+                                                    value="Weight">
+                                                <label for="Weight" class="mx-2">Weight</label>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-2 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Define Your Health
+                                            </p>
+
+                                            <select name="entry.1717414173" id="CharHealth">
+                                                <option value="Poor">Poor</option>
+                                                <option value="Fair">Fair</option>
+                                                <option value="Good">Good</option>
+                                                <option value="Excellent">Excellent</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Do You Currently Smoke?
+                                            </p>
+                                            <select name="entry.471526044" id="CurSmoke">
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Have You Smoked in the Past?
+                                            </p>
+                                            <select name="entry.1198418909" id="PastSmoke">
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-between">
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Do You Consume Alcohol?
+                                            </p>
+
+                                            <select name="entry.46007059" id="ConsumeAlcohol">
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                How Often?
+                                            </p>
+
+                                            <select name="entry.1780230986" id="FreqAlcohol">
+                                                <option value="Less than 1x/month">Less than 1x/month</option>
+                                                <option value="1-3x/month">1-3x/month</option>
+                                                <option value="1x/week">1x/week</option>
+                                                <option value="Everyday">Everyday</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="mt-4">Type</p>
+
+                                            <div>
+                                                <input type="checkbox" id="Beer" name="entry.854266456" value="Beer">
+                                                <label for="Beer" class="mx-2">Beer</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="Wine" name="entry.854266456" value="Wine">
+                                                <label for="Wine" class="mx-2">Wine</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="HardLiquor" name="entry.854266456"
+                                                    value="Hard Liquor">
+                                                <label for="HardLiquor" class="mx-2">Hard Liquor</label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-8 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Do you use any street drugs or use prescription drugs without your
+                                                doctor’s knowledge?
+                                            </p>
+
+                                            <select name="entry.1015586231" id="Drugs">
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 form-group mt-md-0">
+                                            <p class="mt-4">Name of Drug</p>
+                                            <input type="text" name="entry.893040398" class="form-control"
+                                                id="NameOfDrugs1" placeholder="Name" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="250"
+                                                autocomplete="off">
+                                        </div>
+
+                                        <div class="col-md-6 form-group mt-md-0">
+                                            <p class="mt-4">Frequency</p>
+                                            <input type="text" name="entry.26214144" class="form-control" id="Frequency"
+                                                placeholder="Frequency" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="250"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 form-group mt-md-0">
+                                            <p class="mt-4">Name of Drug</p>
+                                            <input type="text" name="entry.152962128" class="form-control"
+                                                id="NameOfDrugs2" placeholder="Name" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="250"
+                                                autocomplete="off">
+                                        </div>
+
+                                        <div class="col-md-6 form-group mt-md-0">
+                                            <p class="mt-4">Frequency</p>
+                                            <input type="text" name="entry.1357580230" class="form-control"
+                                                id="Frequency2" placeholder="Frequency" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="250"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="section-header mt-4">
+                                        <span class="section-divider"></span>
+                                        <h4 class="section-description">F. Treatment Information
+                                        </h4>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 form-group mt-md-0">
+                                            <p class="">Please describe the main concern(s) that have prompted you
+                                                to see me now?</p>
+                                            <input type="text" name="entry.532677029" class="form-control"
+                                                id="MainConcerns" placeholder="Main Concerns" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="300"
+                                                autocomplete="off" required>
+                                        </div>
+
+                                        <div class="col-md-7 form-group mt-md-0">
+                                            <p class="mt-4">How long has this been a concern?</p>
+                                            <input type="text" name="entry.1154574143" class="form-control"
+                                                id="LongConcerns" placeholder="Length of Time" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="300"
+                                                autocomplete="off">
+                                        </div>
+
+                                        <div class="col-md-5 form-group mt-md-0">
+                                            <p class="mt-4">Major Life Stressors In The Last 12 Months</p>
+
+                                            <div>
+                                                <input type="checkbox" id="SIllness" name="entry.175263432"
+                                                    value="Serious Illness or Injury">
+                                                <label for="SIllness" class="mx-2">Serious Illness or Injury</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="DFFFM" name="entry.175263432" value="Death of a Close Friend or Family
+                                                    Member">
+                                                <label for="DFFFM" class="mx-2">Death of a Close Friend or Family
+                                                    Member</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="MIF" name="entry.175263432"
+                                                    value="Major Illness in Family">
+                                                <label for="MIF" class="mx-2">Major Illness in Family</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="GNFM" name="entry.175263432"
+                                                    value="Gain of New Family Member">
+                                                <label for="GNFM" class="mx-2">Gain of New Family Member</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="D/S" name="entry.175263432"
+                                                    value="Divorce/Separation">
+                                                <label for="D/S" class="mx-2">Divorce/Separation</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="JobChange" name="entry.175263432"
+                                                    value="Job Change">
+                                                <label for="JobChange" class="mx-2">Job Change</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="other2" name="entry.175263432"
+                                                    value="__other_option__"><label for="Other2"
+                                                    class="mx-2">Other</label>
+                                                <input type="text" name="entry.175263432.other_option_response"
+                                                    id="other2" style="height: 10px;"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 form-group mt-md-0">
+                                            <p class="mt-4">Please describe what you would like to be different in your
+                                                life when you are done with therapy?</p>
+                                            <input type="text" name="entry.1154574143" class="form-control"
+                                                id="Different" placeholder="" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="300"
+                                                autocomplete="off" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-7 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Received psychological or psychiatric counseling
+                                                before?
+                                            </p>
+                                            <select name="entry.718960085" id="OtherCounseling" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 form-group mt-md-0">
+                                            <p class="mt-4">When? From Whom? Purpose? Results?</p>
+                                            <input type="text" name="entry.552700717" class="form-control" id="WFWPR"
+                                                placeholder="Please Describe" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="450"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-7 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Have you ever been prescribed medication for a psychiatric or emotional
+                                                problem?
+                                            </p>
+                                            <select name="entry.1749822813" id="medicationforproblems" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 form-group mt-md-0">
+                                            <p class="mt-4">When? Prescriber? What Medication? For What? Results?</p>
+                                            <input type="text" name="entry.661053402" class="form-control" id="WPWMWR"
+                                                placeholder="Please Describe" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="450"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-7 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Have you ever been hospitalized for a psychiatric or emotional health
+                                                reason?
+                                            </p>
+                                            <select name="entry.1645391360" id="hospitalized" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 form-group mt-md-0">
+                                            <p class="mt-4">When? Where? For What Reason? Outcome?</p>
+                                            <input type="text" name="entry.1765020169" class="form-control" id="WWWRO"
+                                                placeholder="Please Describe" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="450"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-between">
+                                        <div class="col-md-6 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Have you ever been in a drug or alcohol treatment program?
+                                            </p>
+                                            <select name="entry.663267290" id="TreatmentProgram" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-6 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                If so, are you an Inpatient or Outpatient?
+                                            </p>
+                                            <select name="entry.1948181881" id="TreatmentProgram" required>
+                                                <option value="N/A">N/A</option>
+                                                <option value="Inpatient">Inpatient</option>
+                                                <option value="Outpatient">Outpatient</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 form-group mt-md-0">
+                                            <p class="mt-4">When? Where? For What Reason? Outcome?</p>
+                                            <input type="text" name="entry.290493608" class="form-control" id="WWWRO"
+                                                placeholder="Please Describe" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="450"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="section-header mt-4">
+                                        <span class="section-divider"></span>
+                                        <h4 class="section-description">Social/Relationship Information
+                                        </h4>
+                                        <p class="section-description mt-4">
+                                            <b>Please indicate any of the following that you have experienced</b>
+                                        </p>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Death Of Mother
+                                            </p>
+                                            <select name="entry.109079696" id="hospitalized" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="mt-4">Your age at occurrence</p>
+                                            <input type="text" name="entry.2003412334" class="form-control" id="ADOM"
+                                                placeholder="Age" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="3"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+
 
                                 </div>
                                 <!-- abovethisone -->

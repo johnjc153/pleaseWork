@@ -2822,7 +2822,7 @@
                                             </div>
                                             <div>
                                                 <input type="checkbox" id="other2" name="entry.175263432"
-                                                    value="__other_option__"><label for="Other2"
+                                                    value="__other_option__"><label for="other2"
                                                     class="mx-2">Other</label>
                                                 <input type="text" name="entry.175263432.other_option_response"
                                                     id="other2" style="height: 10px;"></input>
@@ -2956,9 +2956,9 @@
                                     <div class="row justify-content-center">
                                         <div class="col-md-4 form-group mt-md-0">
                                             <p class="section-description mt-4">
-                                                Death Of Mother
+                                                Death Of Mother*
                                             </p>
-                                            <select name="entry.109079696" id="hospitalized" required>
+                                            <select name="entry.109079696" id="DeathOfMother" required>
                                                 <option value="Yes">Yes</option>
                                                 <option value="No">No</option>
                                             </select>
@@ -2973,10 +2973,326 @@
                                         </div>
                                     </div>
 
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Death Of Father*
+                                            </p>
+                                            <select name="entry.8356780" id="DeathOfFather" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="mt-4">Your age at occurrence</p>
+                                            <input type="text" name="entry.1280024808" class="form-control" id="ADOF"
+                                                placeholder="Age" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="3"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Death Of Child*
+                                            </p>
+                                            <select name="entry.1715222106" id="DeathofChild" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="mt-4">Your age at occurrence</p>
+                                            <input type="text" name="entry.1858934684" class="form-control" id="ADOC"
+                                                placeholder="Age" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="3"
+                                                autocomplete="off">
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="mt-4">Child's Age</p>
+                                            <input type="text" name="entry.731240821" class="form-control" id="CA"
+                                                placeholder="Age" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="3"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Death Of Sibling*
+                                            </p>
+                                            <select name="entry.1130616938" id="DeathofSibling" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="mt-4">Your age at occurrence</p>
+                                            <input type="text" name="entry.1698844844" class="form-control" id="ADOS"
+                                                placeholder="Age" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="3"
+                                                autocomplete="off">
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="mt-4">Sibling's Age</p>
+                                            <input type="text" name="entry.460741617" class="form-control" id="SA"
+                                                placeholder="Age" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="3"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Desertion Of Mother*
+                                            </p>
+                                            <select name="entry.12851820" id="DesMother" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="mt-4">Your age at occurrence</p>
+                                            <input type="text" name="entry.451883199" class="form-control" id="DOM"
+                                                placeholder="Age" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="3"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Desertion Of Father*
+                                            </p>
+                                            <select name="entry.201657592" id="DesFather" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="mt-4">Your age at occurrence</p>
+                                            <input type="text" name="entry.1627490103" class="form-control" id="DOF"
+                                                placeholder="Age" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="3"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Divorce Of Parents*
+                                            </p>
+                                            <select name="entry.965606565" id="DivParents" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-3 form-group mt-md-0">
+                                            <p class="mt-4">Your age at occurrence</p>
+                                            <input type="text" name="entry.2049416288" class="form-control" id="DP"
+                                                placeholder="Age" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="3"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-2 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Sexual Abuse*
+                                            </p>
+                                            <select name="entry.1959413172" id="SexualAbuse" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-2 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Emotional Abuse*
+                                            </p>
+                                            <select name="entry.673371581" id="EmotionalAbuse" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-2 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Physcial Abuse*
+                                            </p>
+                                            <select name="entry.257855210" id="PhysicalAbuse" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-2 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Violence In Family*
+                                            </p>
+                                            <select name="entry.1304256646" id="ViolenceInTheFamily" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-2 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                Mental Illness In Family*
+                                            </p>
+                                            <select name="entry.732286904" id="MentalIllnessOfAFamilyMember" required>
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-7 form-group mt-md-0">
+
+                                            <p class="mt-4">Who are the most significant supports in your life? (Check
+                                                all that apply)</p>
+
+                                            <div>
+                                                <input type="checkbox" id="Spouse/Partner" name="entry.1860426674"
+                                                    value="Spouse/Partner">
+                                                <label for="Spouse/Partner" class="mx-2">Spouse/Partner</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="Friends" name="entry.1860426674"
+                                                    value="Friends">
+                                                <label for="Friends" class="mx-2">Friends</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="Parents" name="entry.1860426674"
+                                                    value="Parents">
+                                                <label for="Parents" class="mx-2">Parents</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="Siblings" name="entry.1860426674"
+                                                    value="Siblings">
+                                                <label for="Siblings" class="mx-2">Siblings</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="Children" name="entry.1860426674"
+                                                    value="Children">
+                                                <label for="Children" class="mx-2">Children</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="other3" name="entry.1860426674"
+                                                    value="__other_option__"><label for="other3"
+                                                    class="mx-2">Other</label>
+                                                <input type="text" name="entry.1860426674.other_option_response"
+                                                    id="other3" style="height: 10px;"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="section-header mt-4">
+                                        <span class="section-divider"></span>
+                                        <h4 class="section-description">Employment Information
+                                        </h4>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p class="mt-4">What is the nature of your employment?</p>
+                                            <input type="text" name="entry.758450363" class="form-control"
+                                                id="NatureOfEmployment" placeholder="Job" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="150"
+                                                autocomplete="off">
+                                        </div>
+
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p class="mt-4">How long at current job?</p>
+                                            <input type="text" name="entry.484573552" class="form-control"
+                                                id="LongAtJob" placeholder="How Long" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="50"
+                                                autocomplete="off">
+                                        </div>
+
+                                        <div class="col-md-4 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                How satisfied are you in this job?
+                                            </p>
+                                            <select name="entry.1376990388" id="satisfactionatJob">
+                                                <option value="Not Very Satisfied">Not Very Satisfied</option>
+                                                <option value="Somewhat Satisfied">Somewhat Satisfied</option>
+                                                <option value="Comfortable">Comfortable</option>
+                                                <option value="Very Satisfied">Very Satisfied</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="section-header mt-4">
+                                        <span class="section-divider"></span>
+                                        <h4 class="section-description">Spiritual Resources
+                                        </h4>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-7 form-group mt-md-0">
+                                            <p class="section-description mt-4">
+                                                How significant of a role does spirituality play in your life?
+                                            </p>
+                                            <select name="entry.1845874609" id="satisfactionatJob">
+                                                <option value="None">None</option>
+                                                <option value="Somewhat Important">Somewhat Important</option>
+                                                <option value="Significant">Significant</option>
+                                                <option value="Very Significant">Very Significant</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="section-header mt-4">
+                                            <span class="section-divider"></span>
+                                            <h4 class="section-description">Other
+                                            </h4>
+                                        </div>
+
+                                        <div class="col-md-12 form-group mt-md-0">
+                                            <p class="mt-4">Is there anything else you think I should know?</p>
+                                            <input type="text" name="entry.192625251" class="form-control"
+                                                id="NatureOfEmployment" placeholder="Other" data-rule="minlen:4"
+                                                data-msg="Please enter at least 4 chars" maxlength="500"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+
 
 
                                 </div>
                                 <!-- abovethisone -->
+
+
+                            </div>
+
+
+                            <div class="roi">
+                                <div class="section-header">
+                                    <h3 class="section-title">Release Of Information</h3>
+                                    <span class="section-divider"></span>
+                                    <p class="section-description"></p>
+                                </div>
 
 
                             </div>

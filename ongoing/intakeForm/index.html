@@ -2026,8 +2026,8 @@
                                                             <label for="Chronic Illness" class="mx-2">Chronic
                                                                 Illness</label>
 
-                                                            <input type="checkbox" id="other" name="entry.1184943011"
-                                                                value="__other_option__"><label for="Other"
+                                                            <input type="checkbox" id="other5" name="entry.1184943011"
+                                                                value="__other_option__"><label for="other5"
                                                                 class="mx-2">Other</label>
                                                             <textarea name="entry.1184943011.other_option_response"
                                                                 id="answer" cols="30" rows="1"
@@ -2102,7 +2102,7 @@
                                                             <label for="Chronic Illness1" class="mx-2">Chronic
                                                                 Illness</label>
 
-                                                            <input type="checkbox" id="other1" name="entry.1980379286"
+                                                            <input type="checkbox" id="Other1" name="entry.1980379286"
                                                                 value="__other_option__"><label for="Other1"
                                                                 class="mx-2">Other</label>
                                                             <textarea name="entry.1980379286.other_option_response"
@@ -3287,22 +3287,355 @@
                             </div>
 
 
-                            <div class="roi">
+                            <div class="roi mt-5">
                                 <div class="section-header">
                                     <h3 class="section-title">Release Of Information</h3>
                                     <span class="section-divider"></span>
                                     <p class="section-description"></p>
                                 </div>
 
+                                <div class="row">
+                                    <div class="col-md-5 form-group">
+                                        <p class="mt-4">Last Name*</p>
+                                        <input type="text" name="entry.627042912" class="form-control" id="LastName"
+                                            placeholder="Last Name" data-rule="minlen:4"
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off"
+                                            required>
+                                    </div>
+
+                                    <div class="col-md-5 form-group">
+                                        <p class="mt-4">First Name*</p>
+                                        <input type="text" name="entry.2107355575" class="form-control" id="First Name"
+                                            placeholder="First Name" data-rule="minlen:4"
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off"
+                                            required>
+                                    </div>
+
+                                    <div class="col-md-2 form-group">
+                                        <p class="mt-4">M.I.*</p>
+                                        <input type="text" name="entry.1386621496" class="form-control" id="MI"
+                                            placeholder="Middle Intial" data-rule="minlen:4"
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off"
+                                            required>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-5 form-group">
+                                        <p class="mt-4">Previous/Maiden Name or Alias</p>
+                                        <input type="text" name="entry.366141065" class="form-control" id="Alias"
+                                            placeholder="Name" data-rule="minlen:4"
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off">
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <div class="col-md-6 form-group mt-md-0">
+                                        <p class="section-description mt-5">
+                                        </p>
+                                        <label for="disclose" class="" style="margin-left: 100px;">*Discover Healing
+                                            Clinicians may</label>
+                                        <select name="entry.1095507812" id="disclose" required>
+                                            <option value="Disclose">Disclose</option>
+                                            <option value="Receive">Receive</option>
+                                            <option value="Exchange">Exchange</option>
+
+                                        </select>
+                                        <span>
+                                            <p class="mt-4 text-center">Exchange the protected health information
+                                                indicated below
+                                                with:
+                                            </p>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <div class="col-md-5 form-group">
+                                        <p class="mt-4">Person or Facility:</p>
+                                        <input type="text" name="entry.1600100504" class="form-control"
+                                            id="PersonOrFacility" placeholder="Name" data-rule="minlen:4"
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off">
+                                    </div>
+
+                                    <div class="col-md-5 form-group">
+                                        <p class="mt-4">Address</p>
+                                        <input type="text" name="entry.2147453911" class="form-control"
+                                            id="FacilityAddress" placeholder="Address" data-rule="minlen:4"
+                                            data-msg="Please enter at least 4 chars" maxlength="100" autocomplete="off">
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <div class="col-md-5 form-group">
+                                        <p class="mt-4">Phone:</p>
+                                        <input type="text" name="entry.1365267051" class="form-control"
+                                            id="FacilityPhone" placeholder="Phone" data-rule="minlen:4"
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off">
+                                    </div>
+
+                                    <div class="col-md-5 form-group">
+                                        <p class="mt-4">Fax</p>
+                                        <input type="text" name="entry.732811826" class="form-control" id="FacilityFax"
+                                            placeholder="Fax Number" data-rule="minlen:4"
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off">
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <p class="mt-4">I authorize the release of any and all of the following medical
+                                        or mental health information, as specified, which may be
+                                        contained in my records. (Check all that apply)</p>
+
+                                    <div class="col-md-4 form-group mt-md-0">
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="AIDs/HIV" name="entry.201459023" value="AIDs/HIV"
+                                                required>
+                                            <label for="AIDs/HIV" class="mx-2">AIDs/HIV</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Discharge Summary" name="entry.201459023"
+                                                value="Discharge Summary">
+                                            <label for="Discharge Summary" class="mx-2">Discharge Summary</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Drug/Alcohol" name="entry.201459023"
+                                                value="Drug/Alcohol">
+                                            <label for="Drug/Alcohol" class="mx-2">Drug/Alcohol</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Intake Evaluation" name="entry.201459023"
+                                                value="Intake Evaluation">
+                                            <label for="Intake Evaluation" class="mx-2">Intake Evaluation</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Laboratory Results" name="entry.201459023"
+                                                value="Laboratory Results">
+                                            <label for="Laboratory Results" class="mx-2">Laboratory Results</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 form-group mt-md-0">
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Medications" name="entry.153631518"
+                                                value="Medications" required>
+                                            <label for="Medications" class="mx-2">Medications</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Medical Diagosis" name="entry.153631518"
+                                                value="Medical Diagosis">
+                                            <label for="Medical Diagosis" class="mx-2">Medical Diagosis</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Medical History" name="entry.153631518"
+                                                value="Medical History">
+                                            <label for="Medical History" class="mx-2">Medical History</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Progress Notes" name="entry.153631518"
+                                                value="Progress Notes">
+                                            <label for="Progress Notes" class="mx-2">Progress Notes</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Psychiatric Evaluations" name="entry.153631518"
+                                                value="Psychiatric Evaluations">
+                                            <label for="Psychiatric Evaluations" class="mx-2">Psychiatric
+                                                Evaluations</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 form-group mt-md-0">
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Psychological Evaluations" name="entry.723391573"
+                                                value="Psychological Evaluations" required>
+                                            <label for="Psychological Evaluations" class="mx-2">Psychological
+                                                Evaluations</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="School" name="entry.723391573" value="School">
+                                            <label for="School" class="mx-2">School</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Treatment Plan" name="entry.723391573"
+                                                value="Treatment Plan">
+                                            <label for="Treatment Plan" class="mx-2">Treatment Plan</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Progress Notes" name="entry.723391573"
+                                                value="All">
+                                            <label for="All" class="mx-2">All</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="row justify-content-between">
+                                    <p class="mt-4">Purpose of this Disclosure: (check all that apply)</p>
+
+                                    <div class="col-md-6 form-group mt-md-0">
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="ITA Investigation/coordination"
+                                                name="entry.1493654524" value="ITA Investigation/coordination" required>
+                                            <label for="ITA Investigation/coordination" class="mx-2">ITA
+                                                Investigation/coordination</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Assisting in Diagnosis and Treatment"
+                                                name="entry.1493654524" value="Assisting in Diagnosis and Treatment">
+                                            <label for="Assisting in Diagnosis and Treatment" class="mx-2">Assisting
+                                                in Diagnosis and Treatment</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Assuring Continuity of Care"
+                                                name="entry.1493654524" value="Assuring Continuity of Care">
+                                            <label for="Assuring Continuity of Care" class="mx-2">Assuring
+                                                Continuity of Care</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Facilitating Resident Placement"
+                                                name="entry.1493654524" value="Facilitating Resident Placement">
+                                            <label for="Facilitating Resident Placement" class="mx-2">Facilitating
+                                                Resident Placement</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Reporting to Probation Officer or Court"
+                                                name="entry.1493654524" value="Reporting to Probation Officer or Court">
+                                            <label for="Reporting to Probation Officer or Court" class="mx-2">Reporting
+                                                to Probation Officer or Court</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Coordinating Service Delivery"
+                                                name="entry.1493654524" value="Coordinating Service Delivery">
+                                            <label for="Coordinating Service Delivery" class="mx-2">Coordinating
+                                                Service Delivery</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 form-group mt-md-0">
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Determine Program Eligiblity"
+                                                name="entry.2090535166" value="Determine Program Eligiblity" required>
+                                            <label for="Determine Program Eligiblity" class="mx-2">Determine Program
+                                                Eligiblity</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Educating Family Members(s) about Mental Illness"
+                                                name="entry.2090535166"
+                                                value="Educating Family Members(s) about Mental Illness">
+                                            <label for="Educating Family Members(s) about Mental Illness"
+                                                class="mx-2">Educating Family Members(s) about Mental Illness</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="Referring to another agency/person"
+                                                name="entry.2090535166" value="Referring to another agency/person">
+                                            <label for="Referring to another agency/person" class="mx-2">Referring to
+                                                another agency/person</label>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <input type="checkbox" id="other4" name="entry.2090535166"
+                                                value="__other_option__"><label for="other4" class="mx-2">Other</label>
+                                            <input type="text" name="entry.2090535166.other_option_response" id="other4"
+                                                style="height: 10px;"></input>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <p class="mt-4">*Please initials below</p>
+                                    <p class="mt-2">I understand that my record may contain information regarding
+                                        diagnosis or treatment
+                                        of drug or alcohol abuse. I give my
+                                        specific authorization for these records to be disclosed. (42 CFR, Part 2)</p>
+
+
+                                    <div class="col-md-5 form-group">
+                                        <p class="mt-4">Drug/Alcohol</p>
+                                        <input type="text" name="entry.958489052" class="form-control"
+                                            id="Drug/AlcoholInitials" placeholder="Initials" data-rule="minlen:4"
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <p class="mt-4">I understand that my record may contain information regarding
+                                        testing, diagnosis, or treatment of HIV/AIDS, or of
+                                        sexually transmitted diseases. I give my specific authorization for these
+                                        records to be disclosed. (RCW 70.24.105)</p>
+
+
+                                    <div class="col-md-5 form-group">
+                                        <p class="mt-4">HIV/AIDS</p>
+                                        <input type="text" name="entry.2074104227" class="form-control"
+                                            id="HIV/AIDSInitials" placeholder="Initials" data-rule="minlen:4"
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off">
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <p class="mt-4">I understand that my records may contain information relating to
+                                        mental health issues (per RCW 71.05.620). This
+                                        authorization prohibits further use or disclosure of the information being
+                                        released beyond the specific limits for this
+                                        consent. I understand that information used or disclosed in keeping with this
+                                        authorization may no longer be protected
+                                        by Federal Law and could be used or re-disclosed by the receiving party. This
+                                        consent is subject to my revocation at any
+                                        time, except for information previously exchanged. To revoke this authorization
+                                        I must submit a written request to
+                                        KRISTIN ROESSLER LLC. I understand that I may refuse to sign this Authorization
+                                        and that my refusal to sign will not
+                                        affect my ability to obtain treatment.
+                                        Unless revoked earlier by me, this authorization shall expire either 30 days
+                                        after the signature date, or upon discharge
+                                        from mental health services with Kristin Roessler, whichever is later.</p>
+
+
+                                    <div class="col-md-5 form-group">
+                                        <p class="mt-4">Signature of client, or client’s parent/guardian/legal
+                                            representative</p>
+                                        <input type="text" name="entry.1224760672" class="form-control"
+                                            id="FinalSignature" placeholder="Signature" data-rule="minlen:4"
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off">
+                                    </div>
+                                </div>
 
                             </div>
 
-                            <div id="submit" class="text-center mt-4"><button type="submit"
-                                    class="py-2 my-4">Submit</button><button type="reset"
-                                    class="my-4 py-2">Reset</button>
+                            <!-- <div id="submit" class="text-center mt-4 justify-content-center"> -->
+                            <!-- </div> -->
+                            <div class="row justify-content-center">
+                                <div class="col-md-2">
+                                    <button type="submit" class="py-2 my-4">Submit</button>
+                                </div>
+                                <div class="col-md-2">
+                                    <button type="reset" class="my-4 py-2">Reset</button>
+                                </div>
+
                             </div>
-
-
 
 
 

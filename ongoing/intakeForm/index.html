@@ -118,15 +118,13 @@
                                 <div class="form-group mt-3">
                                     <input type="text" name="entry.749899437" class="form-control" id="TreatmentGoal2"
                                         placeholder="Treatment Goal 2" data-rule="minlen:4"
-                                        data-msg="Please enter at least 4 chars" maxlength="300" autocomplete="off"
-                                        required>
+                                        data-msg="Please enter at least 4 chars" maxlength="300" autocomplete="off">
                                 </div>
 
                                 <div class="form-group mt-3">
                                     <input type="text" name="entry.83000319" class="form-control" id="TreatmentGoal3"
                                         placeholder="Treatment Goal 3" data-rule="minlen:4"
-                                        data-msg="Please enter at least 4 chars" maxlength="300" autocomplete="off"
-                                        required>
+                                        data-msg="Please enter at least 4 chars" maxlength="300" autocomplete="off">
                                 </div>
 
                                 <div class="form-group mt-3">
@@ -1518,8 +1516,8 @@
                                             <input type="radio" name="entry.1667710917" id="Other"
                                                 value="__other_option__">
                                             <span class="px-2">Other</span>
-                                            <textarea name="entry.1667710917.other_option_response" id="other" cols="30"
-                                                id="doctortext" rows="1" style="height: 10px;"></textarea>
+                                            <input type="text" name="entry.1667710917.other_option_response" id="other"
+                                                id="doctortext" style="height: 10px;"></input>
                                             <!-- <div class="validate"></div> -->
                                         </label>
                                     </div>
@@ -1574,8 +1572,8 @@
                                             <input type="radio" name="entry.1169069481" id="OtherRef"
                                                 value="__other_option__">
                                             <span class="px-2">Other</span>
-                                            <textarea name="entry.1169069481.other_option_response" id="otherRef"
-                                                cols="30" id="doctortext" rows="1" style="height: 10px;"></textarea>
+                                            <input type="text" name="entry.1169069481.other_option_response"
+                                                id="otherRef" id="doctortext" style="height: 10px;"></input>
                                             <!-- <div class="validate"></div> -->
                                         </label>
                                     </div>
@@ -1635,9 +1633,8 @@
                                                     <input type="radio" name="entry.1338131643" id="OtherI"
                                                         value="__other_option__" required>
                                                     <span class="px-2">Other</span>
-                                                    <textarea name="entry.1338131643.other_option_response" id="otherI"
-                                                        cols="30" id="doctortext" rows="1"
-                                                        style="height: 10px;"></textarea>
+                                                    <input type="text" name="entry.1338131643.other_option_response"
+                                                        id="otherI" style="height: 10px;"></input>
                                                     <!-- <div class="validate"></div> -->
                                                 </label>
                                             </div>
@@ -1647,7 +1644,7 @@
                                                 <input type="text" name="entry.2143036591" class="form-control"
                                                     id="InsuredName" placeholder="Name" data-rule="minlen:4"
                                                     data-msg="Please enter at least 4 chars" maxlength="50"
-                                                    autocomplete="off">
+                                                    autocomplete="off" required>
                                             </div>
 
                                             <div class="col-md-3 mt-3 form-group">
@@ -1729,7 +1726,7 @@
                                                 <input type="text" name="entry.231041518" class="form-control"
                                                     id="IInsurancePlan" placeholder="Insurance Plan"
                                                     data-rule="minlen:4" data-msg="Please enter at least 4 chars"
-                                                    maxlength="50" autocomplete="off">
+                                                    maxlength="50" autocomplete="off" required>
                                             </div>
 
                                             <p class="mt-2"><b>(Please bring your insurance card so a copy can be
@@ -1790,9 +1787,8 @@
                                                         <input type="radio" name="entry.402416320" id="I2Other"
                                                             value="__other_option__">
                                                         <span class="px-2">Other</span>
-                                                        <textarea name="entry.402416320.other_option_response"
-                                                            id="I2other" cols="25" id="doctortext" rows="1"
-                                                            style="height: 10px;"></textarea>
+                                                        <input type="text" name="entry.402416320.other_option_response"
+                                                            id="I2other" id="doctortext" style="height: 10px;"></input>
                                                         <!-- <div class="validate"></div> -->
                                                     </label>
                                                 </div>
@@ -2029,9 +2025,9 @@
                                                             <input type="checkbox" id="other5" name="entry.1184943011"
                                                                 value="__other_option__"><label for="other5"
                                                                 class="mx-2">Other</label>
-                                                            <textarea name="entry.1184943011.other_option_response"
-                                                                id="answer" cols="30" rows="1"
-                                                                style="height: 10px;"></textarea>
+                                                            <input type="text"
+                                                                name="entry.1184943011.other_option_response"
+                                                                id="answer" style="height: 10px;"></input>
 
 
 
@@ -2105,12 +2101,9 @@
                                                             <input type="checkbox" id="Other1" name="entry.1980379286"
                                                                 value="__other_option__"><label for="Other1"
                                                                 class="mx-2">Other</label>
-                                                            <textarea name="entry.1980379286.other_option_response"
-                                                                id="answer" cols="30" rows="1"
-                                                                style="height: 10px;"></textarea>
-
-
-
+                                                            <input type="text"
+                                                                name="entry.1980379286.other_option_response"
+                                                                id="answer" style="height: 10px;"></input>
                                                         </div>
 
                                                         <div class="col-md-6 form-group mt-3 mt-md-0">
@@ -2644,7 +2637,7 @@
                                             </p>
                                             <select name="entry.471526044" id="CurSmoke">
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -2654,7 +2647,7 @@
                                             </p>
                                             <select name="entry.1198418909" id="PastSmoke">
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
                                     </div>
@@ -2668,7 +2661,7 @@
 
                                             <select name="entry.46007059" id="ConsumeAlcohol">
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -2716,7 +2709,7 @@
 
                                             <select name="entry.1015586231" id="Drugs">
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
                                     </div>
@@ -2849,7 +2842,7 @@
                                             </p>
                                             <select name="entry.718960085" id="OtherCounseling" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
                                     </div>
@@ -2872,7 +2865,7 @@
                                             </p>
                                             <select name="entry.1749822813" id="medicationforproblems" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
                                     </div>
@@ -2895,7 +2888,7 @@
                                             </p>
                                             <select name="entry.1645391360" id="hospitalized" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
                                     </div>
@@ -2917,7 +2910,7 @@
                                             </p>
                                             <select name="entry.663267290" id="TreatmentProgram" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -2925,8 +2918,8 @@
                                             <p class="section-description mt-4">
                                                 If so, are you an Inpatient or Outpatient?
                                             </p>
-                                            <select name="entry.1948181881" id="TreatmentProgram" required>
-                                                <option value="N/A">N/A</option>
+                                            <select name="entry.1948181881" id="Patient" required>
+                                                <option value="N/A" selected>N/A</option>
                                                 <option value="Inpatient">Inpatient</option>
                                                 <option value="Outpatient">Outpatient</option>
 
@@ -2960,7 +2953,7 @@
                                             </p>
                                             <select name="entry.109079696" id="DeathOfMother" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -2980,7 +2973,7 @@
                                             </p>
                                             <select name="entry.8356780" id="DeathOfFather" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -3000,7 +2993,7 @@
                                             </p>
                                             <select name="entry.1715222106" id="DeathofChild" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -3028,7 +3021,7 @@
                                             </p>
                                             <select name="entry.1130616938" id="DeathofSibling" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -3056,7 +3049,7 @@
                                             </p>
                                             <select name="entry.12851820" id="DesMother" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -3076,7 +3069,7 @@
                                             </p>
                                             <select name="entry.201657592" id="DesFather" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -3096,7 +3089,7 @@
                                             </p>
                                             <select name="entry.965606565" id="DivParents" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -3117,7 +3110,7 @@
                                             </p>
                                             <select name="entry.1959413172" id="SexualAbuse" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -3127,7 +3120,7 @@
                                             </p>
                                             <select name="entry.673371581" id="EmotionalAbuse" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -3137,7 +3130,7 @@
                                             </p>
                                             <select name="entry.257855210" id="PhysicalAbuse" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -3147,7 +3140,7 @@
                                             </p>
                                             <select name="entry.1304256646" id="ViolenceInTheFamily" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
 
@@ -3157,7 +3150,7 @@
                                             </p>
                                             <select name="entry.732286904" id="MentalIllnessOfAFamilyMember" required>
                                                 <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
+                                                <option value="No" selected>No</option>
                                             </select>
                                         </div>
                                     </div>
@@ -3255,7 +3248,7 @@
                                             <p class="section-description mt-4">
                                                 How significant of a role does spirituality play in your life?
                                             </p>
-                                            <select name="entry.1845874609" id="satisfactionatJob">
+                                            <select name="entry.1845874609" id="spirituality">
                                                 <option value="None">None</option>
                                                 <option value="Somewhat Important">Somewhat Important</option>
                                                 <option value="Significant">Significant</option>
@@ -3312,11 +3305,10 @@
                                     </div>
 
                                     <div class="col-md-2 form-group">
-                                        <p class="mt-4">M.I.*</p>
+                                        <p class="mt-4">M.I.</p>
                                         <input type="text" name="entry.1386621496" class="form-control" id="MI"
                                             placeholder="Middle Intial" data-rule="minlen:4"
-                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off"
-                                            required>
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off">
                                     </div>
                                 </div>
 
@@ -3390,8 +3382,8 @@
                                     <div class="col-md-4 form-group mt-md-0">
 
                                         <div class="mt-2">
-                                            <input type="checkbox" id="AIDs/HIV" name="entry.201459023" value="AIDs/HIV"
-                                                required>
+                                            <input type="checkbox" id="AIDs/HIV" name="entry.201459023"
+                                                value="AIDs/HIV">
                                             <label for="AIDs/HIV" class="mx-2">AIDs/HIV</label>
                                         </div>
 
@@ -3423,7 +3415,7 @@
                                     <div class="col-md-4 form-group mt-md-0">
                                         <div class="mt-2">
                                             <input type="checkbox" id="Medications" name="entry.153631518"
-                                                value="Medications" required>
+                                                value="Medications">
                                             <label for="Medications" class="mx-2">Medications</label>
                                         </div>
 
@@ -3456,7 +3448,7 @@
                                     <div class="col-md-4 form-group mt-md-0">
                                         <div class="mt-2">
                                             <input type="checkbox" id="Psychological Evaluations" name="entry.723391573"
-                                                value="Psychological Evaluations" required>
+                                                value="Psychological Evaluations">
                                             <label for="Psychological Evaluations" class="mx-2">Psychological
                                                 Evaluations</label>
                                         </div>
@@ -3489,7 +3481,7 @@
 
                                         <div class="mt-2">
                                             <input type="checkbox" id="ITA Investigation/coordination"
-                                                name="entry.1493654524" value="ITA Investigation/coordination" required>
+                                                name="entry.1493654524" value="ITA Investigation/coordination">
                                             <label for="ITA Investigation/coordination" class="mx-2">ITA
                                                 Investigation/coordination</label>
                                         </div>
@@ -3533,7 +3525,7 @@
                                     <div class="col-md-6 form-group mt-md-0">
                                         <div class="mt-2">
                                             <input type="checkbox" id="Determine Program Eligiblity"
-                                                name="entry.2090535166" value="Determine Program Eligiblity" required>
+                                                name="entry.2090535166" value="Determine Program Eligiblity">
                                             <label for="Determine Program Eligiblity" class="mx-2">Determine Program
                                                 Eligiblity</label>
                                         </div>
@@ -3575,7 +3567,8 @@
                                         <p class="mt-4">Drug/Alcohol</p>
                                         <input type="text" name="entry.958489052" class="form-control"
                                             id="Drug/AlcoholInitials" placeholder="Initials" data-rule="minlen:4"
-                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off">
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off"
+                                            required>
                                     </div>
                                 </div>
 
@@ -3590,7 +3583,8 @@
                                         <p class="mt-4">HIV/AIDS</p>
                                         <input type="text" name="entry.2074104227" class="form-control"
                                             id="HIV/AIDSInitials" placeholder="Initials" data-rule="minlen:4"
-                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off">
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off"
+                                            required>
                                     </div>
                                 </div>
 
@@ -3619,7 +3613,8 @@
                                             representative</p>
                                         <input type="text" name="entry.1224760672" class="form-control"
                                             id="FinalSignature" placeholder="Signature" data-rule="minlen:4"
-                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off">
+                                            data-msg="Please enter at least 4 chars" maxlength="50" autocomplete="off"
+                                            required>
                                     </div>
                                 </div>
 

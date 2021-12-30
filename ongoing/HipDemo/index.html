@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Appointment Section ======= -->
+    <section id="inForm" class="appointment section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Documents</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat
+                    sit
+                    in iste officiis commodi quidem hic quas.</p>
+            </div>
+
+            <!-- <form method="POST" role="form" class="form" name="google-form">
+                <div class="row">
+
+                    <div class="col-md-4 form-element">
+                        <label for="1" class="radio">
+                            <input type="radio" name="entry.365307149" id="1" value="1">
+                            <div class="radio__radio"></div>
+                            <span class="px-5">Option 1</span>
+                            
+                        </label>
+                        <label for="2" class="radio">
+                            <input type="radio" name="entry.365307149" id="2" value="2">
+                            <div class="radio__radio"></div>
+                            <span class="px-5">Option 2</span>
+                            
+                        </label>
+                        <label for="3" class="radio">
+                            <input type="radio" name="entry.365307149" id="3" value="3">
+                            <div class="radio__radio"></div>
+                            <span class="px-5">Option 3</span>
+                            
+                        </label>
+                    </div>
+
+
+                
+
+                    <div class="col-md-4 form-element ">
+                        <input type="text" name="entry.2053721191" class="form-control" id="name"
+                            placeholder="Full Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+
+                    <div class="col-md-4 form-element">
+                        <input type="text" name="entry.1465166540" class="form-control" id="name"
+                            placeholder="Signature" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+
+
+
+                    <div>
+                        <input type="checkbox" id="Scales" name="entry.1826938221" class="form-control" value="Scales">
+                        <label for="scales">Scales</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="Horns" name="entry.1826938221" class="form-control" value="Horns">
+                        <label for="horns">Horns</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="other" name="entry.1826938221" class="form-control"
+                            value="__other_option__">
+                        <textarea name="entry.1826938221.other_option_response" id="answer" cols="30"
+                            rows="1"></textarea>
+                        <label for=""></label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="Horns" name="entry.1826938221" value="Horns">
+                        <label for="horns">Horns</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="other" name="entry.1826938221" value="__other_option__"><label
+                            for="other">Other</label>
+                        <textarea name="entry.1826938221.other_option_response" id="other" cols="10"
+                            rows="1"></textarea>
+
+                    </div>
+
+
+                    <div id="submit" class="text-center mt-4"><button type="submit"
+                            class="py-2 my-2">Submit</button><button type="reset" class="my-2 py-2">Reset</button>
+                    </div>
+
+
+            </form> -->
+            <!-- for the picture entry entry.1129810924 -->
+        </div>
+
+        <!-- <form id="form">
+            <input name="file" id="uploadfile" type="file">
+            <input name="filename" id="filename" type="text">
+            <input id="submit" type="submit">
+        </form>
+        <script>
+            const form = document.getElementById('form');
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                const file = form.file.files[0];
+                const fr = new FileReader();
+                fr.readAsArrayBuffer(file);
+                fr.onload = f => {
+
+                    const url = "https://script.google.com/macros/s/AKfycbzTaDN4dgfB9PMD5-5TK6I-VeGTBPWKhEXWo6FcEVkba4rTX5kt5xyF8mcqdolNDOEE/exec";  // <--- Please set the URL of Web Apps.
+
+                    const qs = new URLSearchParams({ filename: form.filename.value || file.name, mimeType: file.type });
+                    fetch(`${url}?${qs}`, { method: "POST", body: JSON.stringify([...new Int8Array(f.target.result)]) })
+                        .then(res => res.json())
+                        .then(e => console.log("https://drive.google.com/uc?export=download&id=" + e.fileId))  // <--- You can retrieve the returned value here.
+                        .catch(err => console.log(err));
+                }
+            });
+        </script> -->
+
+
+        <iframe
+            src="https://script.google.com/macros/s/AKfycbzAfuAMfWeL-cjij2JxOiZKn8dyAPKHwsoM77MhO8nMPlpEKyrpxY1Ns2g_8ZRTafHT_A/exec"
+            frameborder="0" width="500px" height="500px"></iframe>
+
+    </section><!-- End Appointment Section -->
+
+    <!-- <script>
+
+        const scriptURL = 'https://docs.google.com/forms/d/e/1FAIpQLSfpNKIjQVydqaK_p5Ut1IPYKEY9E-I3Yxl3q2qJsl9w4f0zMA/formResponse'
+        const form = document.forms['google-form']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            alert('Info has been sent');
+        })
+    </script> -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

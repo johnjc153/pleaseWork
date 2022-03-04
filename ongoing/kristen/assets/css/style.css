@@ -403,6 +403,17 @@ h6 {
   margin: 50px 0px 0 0px;
 }
 
+@media (max-width: 500px) {
+  .contact #ROI {
+    line-height: 2rem;
+    font-size: 0.65rem;
+  }
+}
+
+.contact .form-group {
+  margin-bottom: 20px;
+}
+
 .contact .info-box {
   color: var(--color3);
   text-align: center;

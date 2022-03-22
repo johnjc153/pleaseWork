@@ -179,6 +179,12 @@ h6 {
   transition: 0.3s;
 }
 
+.navbar #callbtn {
+  background: rgba(61, 61, 61, 0.4);
+  color: var(--white);
+  border-radius: 1rem;
+}
+
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;

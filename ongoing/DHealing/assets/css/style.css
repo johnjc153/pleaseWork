@@ -529,6 +529,7 @@ h6 {
 }
 
 .contact #intake button[type="submit"],
+.contact #intake button[type="Download"],
 .contact #intake button[type="reset"] {
   background: var(--color1);
   border: 0;

@@ -640,16 +640,23 @@
                         </div>
 
                         <div class="row mt-2">
-                            <div class="col-md-6 form-group">
+                            <div class="col-md-4 form-group">
                                 <p>Client Name</p>
                                 <input type="text" name="entry.694343665" class="form-control" id="#" placeholder="Name"
                                     data-rule="minlen:4" data-msg="Please enter at least 4 chars" maxlength="100"
                                     autocomplete="off" required>
                             </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <div class="col-md-2 form-group mt-3 mt-md-0">
                                 <p>Date Of Birth</p>
                                 <input type="date" id="date" name="entry.139218599" min="1900-11-24" autocomplete="off"
                                     required>
+                            </div>
+
+                            <div class="col-md-4 form-group">
+                                <p>Client Email</p>
+                                <input type="text" name="entry.1535060729" class="form-control" id="#"
+                                    placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                    maxlength="100" autocomplete="off" required>
                             </div>
 
 
@@ -2141,19 +2148,53 @@
                                         <p><b>*If patient is 13 years or older, they must sign in the client
                                                 signature/box</b></p>
 
-                                        <div class="col-md-4 form-group">
-                                            <p class="mt-4">Signature of client, or client’s parent/guardian/legal
-                                                representative</p>
-                                            <input type="text" name="entry.1059144749" class="form-control"
-                                                id="FinalSig" placeholder="Signature" data-rule="minlen:4"
-                                                data-msg="Please enter at least 4 chars" maxlength="50"
-                                                autocomplete="off" required>
+
+                                        <div class="row">
+                                            <div class="col-md-4 form-group">
+                                                <p class="mt-4">Signature of client</p>
+                                                <input type="text" name="entry.1059144749" class="form-control"
+                                                    id="FinalSig" placeholder="Signature" data-rule="minlen:4"
+                                                    data-msg="Please enter at least 4 chars" maxlength="50"
+                                                    autocomplete="off" required>
+                                            </div>
+
+                                            <div class="col-md-2 form-group ">
+                                                <p class="mt-4">Date</p>
+                                                <input type="date" id="date" name="entry.1743040363" min="1900-11-24"
+                                                    autocomplete="off">
+                                            </div>
                                         </div>
 
-                                        <div class="col-md-2 form-group ">
-                                            <p class="mt-4">Date</p>
-                                            <input type="date" id="date" name="entry.1743040363" min="1900-11-24"
-                                                autocomplete="off">
+                                        <div class="row">
+                                            <div class="col-md-4 form-group">
+                                                <p class="mt-4">Name of 2nd client (if couples’ therapy)</p>
+                                                <input type="text" name="entry.1425911635" class="form-control"
+                                                    id="ROISecSig" placeholder="Signature" data-rule="minlen:4"
+                                                    data-msg="Please enter at least 4 chars" maxlength="50"
+                                                    autocomplete="off" required>
+                                            </div>
+
+                                            <div class="col-md-2 form-group ">
+                                                <p class="mt-4">Date</p>
+                                                <input type="ROISecDate" id="date" name="entry.1650120432"
+                                                    min="1900-11-24" autocomplete="off">
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-4 form-group">
+                                                <p class="mt-4">Parent/Guardian Signature:</p>
+                                                <input type="text" name="entry.1450839389" class="form-control"
+                                                    id="ROIParentSig" placeholder="Signature" data-rule="minlen:4"
+                                                    data-msg="Please enter at least 4 chars" maxlength="50"
+                                                    autocomplete="off" required>
+                                            </div>
+
+                                            <div class="col-md-2 form-group ">
+                                                <p class="mt-4">Date</p>
+                                                <input type="date" id="ROIParentDate" name="entry.1971350223"
+                                                    min="1900-11-24" autocomplete="off">
+                                            </div>
                                         </div>
                                     </div>
 

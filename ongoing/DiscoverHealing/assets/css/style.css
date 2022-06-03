@@ -544,6 +544,28 @@ h6 {
   background: var(--color1);
 }
 
+.contact #intake input[type="text"],
+.contact #intake input[type="date"] {
+  border-radius: 0.5rem;
+  width: 300px;
+  height: 50%;
+  margin-right: 50px;
+}
+
+.contact #intake textarea {
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  #EFM {
+    font-size: 0.7rem;
+  }
+}
+
+.contact p {
+  font-size: 0.9rem;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -560,69 +582,4 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-}
-
-/* Frequently Asked Questions Section
---------------------------------*/
-#faq {
-  padding: 60px 0;
-  overflow: hidden;
-}
-
-#faq .faq-list {
-  padding: 0;
-  list-style: none;
-}
-
-#faq .faq-list li {
-  border-bottom: 1px solid #f0f0f0;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-}
-
-#faq .faq-list .question {
-  display: block;
-  position: relative;
-  font-family: #1dc8cd;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
-  padding-left: 25px;
-  cursor: pointer;
-  color: #179ca0;
-  transition: 0.3s;
-}
-
-#faq .faq-list i {
-  font-size: 16px;
-  position: absolute;
-  left: 0;
-  top: -2px;
-}
-
-#faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 25px;
-}
-
-#faq .faq-list .icon-show {
-  display: none;
-}
-
-#faq .faq-list .collapsed {
-  color: black;
-}
-
-#faq .faq-list .collapsed:hover {
-  color: #1dc8cd;
-}
-
-#faq .faq-list .collapsed .icon-show {
-  display: inline-block;
-  transition: 0.6s;
-}
-
-#faq .faq-list .collapsed .icon-close {
-  display: none;
-  transition: 0.6s;
 }

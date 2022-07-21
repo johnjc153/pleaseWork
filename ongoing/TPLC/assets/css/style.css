@@ -1,14 +1,16 @@
 /* vars */
 :root {
   /* colors */
-  --color1: #2065b3;
+  --color1: #154275;
   --color2: #002855;
   --color3: #001329;
   --color4: #444444;
   --white: #fff;
   --light: #e4e4e4;
-  --black: #000;
+  --black: rgb(20, 20, 20);
   --grey: #868383;
+
+  --section: #e4f0f6;
 }
 
 /*--------------------------------------------------------------
@@ -87,7 +89,7 @@ h6 {
   height: 70px;
   transition: all 0.5s;
   z-index: 997;
-  background: #000;
+  background: rgba(0, 0, 0, 0.719);
 }
 
 #header .logo h1 {
@@ -465,7 +467,7 @@ section {
 }
 
 .section-bg {
-  background-color: #e4f0f6;
+  background-color: var(--section);
 }
 
 .section-title {
